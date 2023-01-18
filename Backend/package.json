@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "protoc-gen-grpc-web": "^1.4.1"
+  },
+  "dependencies": {
+    "grpc-web": "^1.4.2",
+    "protobufjs": "^7.1.2",
+    "protoc": "^1.1.3"
+  }
+}

@@ -1,0 +1,2 @@
+deviceId=1
+deviceId=2

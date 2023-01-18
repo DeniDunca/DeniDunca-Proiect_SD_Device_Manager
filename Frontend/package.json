@@ -1,0 +1,54 @@
+{
+  "name": "react-complete-guide",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@improbable-eng/grpc-web": "^0.15.0",
+    "@testing-library/jest-dom": "^5.11.6",
+    "@testing-library/react": "^11.2.2",
+    "@testing-library/user-event": "^12.5.0",
+    "chart.js": "^3.9.1",
+    "google-protobuf": "^3.21.2",
+    "protoc-gen-grpc-web": "^1.4.1",
+    "react": "^17.0.1",
+    "react-chartjs-2": "^4.3.1",
+    "react-datepicker": "^4.8.0",
+    "react-dom": "^17.0.1",
+    "react-dropdown": "^1.11.0",
+    "react-google-recaptcha": "^2.1.0",
+    "react-scripts": "4.0.1",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@stomp/stompjs": "^6.1.2",
+    "faker": "^6.6.6",
+    "react-cookie": "^4.1.1",
+    "react-router-dom": "^6.4.2",
+    "sockjs-client": "^1.6.1",
+    "universal-cookie": "^4.0.4"
+  }
+}

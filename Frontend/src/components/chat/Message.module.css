@@ -1,0 +1,15 @@
+.control{
+    background: pink;
+    margin: 3px;
+    border-radius: 10px;
+    border: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.mine{
+    background: #049393;
+    display: flex;
+    justify-content: flex-end;
+}

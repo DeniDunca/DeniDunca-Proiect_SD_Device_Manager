@@ -1,0 +1,78 @@
+
+.actions {
+    display: block;
+    justify-content: flex-end;
+    gap: 1rem;
+
+}
+
+.button {
+
+    font: inherit;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #385a64;
+    border: none;
+    border-radius: 25px;
+    padding: 0.5rem 2rem;
+    margin-left: 1rem;
+}
+
+.buttonDelete {
+    font: inherit;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #9a0046;
+    border: none;
+    border-radius: 25px;
+    padding: 0.5rem 2rem;
+    margin-left: 1rem;
+}
+
+.button:hover,
+.button:active {
+    background-color: #03373a;
+}
+
+.buttonDelete:hover,
+.buttonDelete:active {
+    background-color: #640a32;
+}
+
+.buttonAdd {
+    font: inherit;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #0b7241;
+    border: none;
+    border-radius: 25px;
+    padding: 0.5rem 2rem;
+    margin-left: 1rem;
+}
+
+.buttonAdd:hover,
+.buttonAdd:active {
+    background-color: #09492b;
+}
+
+.actions input {
+    font: inherit;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 15rem;
+    max-width: 100%;
+}
+
+.li {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.div{
+    display: flex;
+    gap: 50px;
+    margin-left: 1rem;
+}

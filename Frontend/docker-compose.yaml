@@ -1,0 +1,22 @@
+version: "3.8"
+services:
+  app:
+    build:
+      context: .
+    volumes:
+      - .:/Frontend
+    ports:
+      - "3000:3000"
+    image: app:react
+    container_name: react_container
+    command: npm start
+    links:
+      - envoy
+
+  envoy:
+    image: envoyproxy/envoy-dev:b145180d17cac80aa5f9a7801429d52017fea6d1
+    volumes:
+      - ./envoy.yaml:/etc/envoy/envoy.yaml
+    ports:
+      - "8081:8081"
+      - "9901:9901"
