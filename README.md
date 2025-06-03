@@ -10,6 +10,7 @@ This application follows a **Layered Architecture**:
 - **Application Layer:** Business logic via Services
 - **Domain Layer:** Entity models and business rules
 - **Infrastructure Layer:** DAO classes and persistence logic
+
 ![image](https://github.com/user-attachments/assets/1cf8a854-9492-4350-b872-eed2393c92c8)
 
 ## Tech Stack
@@ -75,6 +76,7 @@ Relationships:
   - Energy consumption
   - Alerts for max energy exceeded
   - Chat typing indicators and message status
+ 
 ![image](https://github.com/user-attachments/assets/d5e1cbb5-cbec-44ab-aa3a-00696692ebaa)
 
 ## Chat Feature
